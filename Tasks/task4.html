@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1.2rem;
+            border-color: gray;
+            border: 1px;
+            height: 100vh;
+
+        }
+        h1{
+            color: black;
+            font-weight: 700;
+
+        }
+        input{
+            border:1px solid rgb(232, 226, 226);
+            outline:  rgb(99, 91, 91);
+            border-radius: 15px;
+            padding: 1.2rem 2rem;
+            width: 20%;
+            font-size: 1rem;
+        }
+        button{
+            border: none;
+            border-radius: 4px;
+            background-color: black;
+            color: azure;
+            padding: 0.78rem 1rem;
+            border-radius: 40px;
+            width: 13%;
+        }
+        p{
+            color: rgba(142, 136, 136, 0.879);
+            font-size: 1.2rem;
+        }
+        a{
+            color: black;
+            font-size: 1.2rem;
+        }
+        .below{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Flodesk</h1>
+        <h3>Welcome back!</h3>
+        <input type="text" placeholder="Enter your email">
+        <input type="text" placeholder="Enter your password">
+        <button>Login To Flodesk</button>
+        <div class="below">
+            <p>Not a member? <a href="#signup">Sign up</a></p>
+            <a href="#forgot">Forgot your password</a>
+            <p>By continuing you agree to Flodesk's <a href="#term">term</a>
+            </p>
+            <p>and acknowledge you've read our <a href="#pr">privacy policy.</a></p>
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --primary-color: rgb(99, 172, 51);
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        div{
+            height: 40px;
+            width: 40px;
+            background-color: var(--primary-color);
+            border-radius: 30px;
+            animation-name: scale;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes scale {
+            from 
+            0%{
+                transform: scale(1);
+                opacity: 1;
+
+            }
+
+            100%{
+                transform: scale(1.6);
+                opacity: 0.5;
+            }
+            0%{
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        h1::after{
+            content: '🚀';
+        }
+        h1::first-letter{
+            color: blue;
+        }
+        h1:hover{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    </div>
+    <h1>Crazy</h1>
+</body>
+</html>

@@ -1,0 +1,22 @@
+h1{
+    background-color: rebeccapurple;
+    color: rgb(12, 20, 20);
+}
+
+div{
+    color: blueviolet;
+}
+
+#heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 50px;
+    font-weight: 900; 
+
+}
+
+#para{
+    line-height: 2.3;
+    word-spacing: 4px;
+    letter-spacing: 10px;
+}

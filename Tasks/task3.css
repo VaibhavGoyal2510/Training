@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    height:60vh;
+    width:45vw;
+    background-color: #27d26e;
+    border-radius: 5px;
+    transform: translate(50%,10%);
+    padding:50px;
+    padding-top:100px;
+}
+h1{
+    font-size: 80px;
+}
+p{
+    margin:20px;
+    font-weight: 600;
+}
+button{
+    color:black;
+    background-color: white;
+    padding:10px;
+    padding:10px 35px;
+    border: 0;
+    border-radius: 30px;
+    font-weight: 600;
+    transform: translateX(15%);
+
+}

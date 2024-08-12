@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;600;700&display=swap');
+
+
+:root {
+    --primary-color: #6366F1;
+    --accent-color: #3f83f8;
+    --text-color: #333333;
+    --link-color: #2563eb;
+    --background-color: #bab4b4;
+    --light-gray: #f0f0f0;
+    --gray: #808080;
+    --dark-gray: #555;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none; 
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    background-color: var(--background-color);
+    padding: 0.1rem;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(253, 255, 255);
+    border: 1px solid blanchedalmond;
+    box-shadow: 2px 2px 25px black;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo_container{
+ 
+    padding-left: 8rem;
+ 
+    display: flex;
+    gap: 0.34rem;
+    
+}
+
+.logo{
+    width: 4rem;
+    gap: 2rem;
+}
+
+.logo_name{
+    margin-top: 0.6rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    font-weight: 1300;
+    font-style: bold;
+}
+
+a{
+    color: black;
+    font-size: 1.4rem;
+  
+}
+
+a:hover{
+    color: red;
+}
+
+.donate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 8rem ;
+}
+
+#button{
+    border: none;
+    padding: 0.34rem;
+    width: 180px;
+    height: 50%;
+    background-color: red;
+    color: azure;
+    font-size: 1.1rem;
+}
+
+
+.logo_name,.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-1{
+    width: 100%;
+    height: 85vh;
+}
+
+

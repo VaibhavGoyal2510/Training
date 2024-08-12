@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #regular-box{
+            height: 300px;
+            width: 300px;
+            background-color: bisque;
+            border: 100px solid mediumaquamarine;
+            /*With using box-sizing as border box the padding or border are included in the box dimensions only.*/
+            /*box-sizing: border-box; */
+        }
+        #alternate-box{
+            height: 300px;
+            width: 300px;
+            background-color: bisque;
+            border: 1px solid mediumaquamarine;
+        }
+    </style>
+</head>
+<body>
+    <!-- Regular box covers only content area and margin and padding are added externally, it is not included in the box. -->
+    <div id="regular-box">Regular-box</div>
+    <div id="alternate-box">Alternate-box</div>
+</body>
+</html>
